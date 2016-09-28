@@ -109,6 +109,11 @@ public class UserActivity extends Activity {
 
                                 Log.i("TAG", "onClick" + "user_id"+user_id+"newname"+newname+"pwd1"+pwd1+"sexflag"+sexflag);
                                 userDataBase.UpPwd(user_id,newname,pwd1,sexflag);
+                                SharedPreferences.Editor edit = sp.edit();
+                                edit.putInt("id",-1);
+                                edit.putBoolean("jizi", false);
+                                edit.putBoolean("zidong", false);
+                                edit.commit();
                                 Toast.makeText(getApplicationContext(), "信息修改成功", Toast.LENGTH_SHORT).show();
                                 Intent intent=new Intent(UserActivity.this,MainActivity.class);
                                 startActivity(intent);
