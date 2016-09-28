@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ceyan</string>
+    <string name="man">男</string>
+    <string name="woman">女</string>
+    <string name="beiwanglu">备忘录</string>
+    <string name="biaoti">标题</string>
+    <string name="neirong">内容</string>
+    <string name="shijian">时间</string>
+    <string name="chare">插入</string>
+    <string name="chaxun">查询</string>
+    <string name="xuhao">序号</string>
+    <string name="xiangqing">详情</string>
+    <string name="xiugai">修改</string>
+    <string name="userxiangqing">用户详情</string>
+    <string name="xiugaiyonghu">修改用户信息</string>
+    <string name="putpwd">请输入旧密码</string>
+    <string name="queding">确定</string>
+    <string name="tuichudenglu">退出登录</string>
+</resources>
